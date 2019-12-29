@@ -1,5 +1,7 @@
 # OFGG v2
 
+#### [Click here to jump straight to usage instructions and bug reporting](#okay-so-how-do-i-use-it)
+
 ### The second iteration of the Online Frozen Gif Generator
 
 A modern from-scratch update of the original Online Frozen Gif Generator, which was a
@@ -34,13 +36,24 @@ There was no preview function, no fps or subtitles options, and worst of all:
 
 #### What's next:
 
-- Allow users to download movie files to their browser so app can be used offline (using ServiceWorker)
-- Let users select which movie file to use for local preview, exchanging quality for disk space themselves
-- Add other Frozen media, e.g. the short films, trailers, and upcoming sequel 🥰
+- Allow users to tweak gif size/quality options
+- Add other Frozen media, e.g. the short films, trailers, and sequel 🥰
+- Fix "Delete" button on media; it properly deletes downloads but the "free space" indicator doesn't reflect it until much later
 
 ## Okay, so how do I use it?
 
-Just head on over to [frozengifs.com](https://frozengifs.com) and get giffing!
+tl;dr: Select your source file in the sidebar, change the gif options to how you want, and click Generate. For an HD copy, you can then click Upload.
+
+Thorough version:
+
+1. Open the sidebar on the left and select a movie file to save. This will be the source file for the gifs you make!
+2. After you click "download", it'll load for a minute (just be patient) and then you'll see an "Open" option. Click it.
+3. Now, close the sidebar, and you'll see your movie file playing, with some options below it. You can adjust the starting time by scrubbing the video, or by changing the text field below. Additionally, you can change the duration (down to tenths of a second), the framerate, the resolution, and the inclusion of subtitles in those options as well.
+4. Now you can click "Generate Gif" to create your very own, one-of-a-kind Frozen gif!
+5. If you need to adjust the duration or any other options, you can click Start Over to try again. Otherwise, you can click Upload to send the gif options to the server, and in a few seconds, you'll receive an HD copy of your same gif!
+6. To save your gif, right click it and select "Save". If you're on mobile, press and hold the gif image instead of right-clicking.
+
+That's it! Head on over to [frozengifs.com](https://frozengifs.com) and get giffing!
 
 **If you encounter issues:** first take a look at the Issues tab up at the top to see if anyone else has reported your issue.
 Not seeing it anywhere? Great, go ahead and report it yourself using the big green *New Issue* button on that tab.
